@@ -1,0 +1,35 @@
+{
+  "name": "indicator-ts-trading",
+  "version": "0.0.1",
+  "description": "A full library of formulas for calculating indicators",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src --out-dir lib"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-typescript"
+    ]
+  },
+  "keywords": [
+    "indicator",
+    "trading",
+    "typescript",
+    "crypto"
+  ],
+  "author": "ericnguyen",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-typescript": "^7.21.0",
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.6",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  }
+}
